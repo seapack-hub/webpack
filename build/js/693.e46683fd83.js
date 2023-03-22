@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpack_test=self.webpackChunkwebpack_test||[]).push([[693],{693:function(n,t,u){function e(){console.log("测试~~")}function c(n){return n*n}function r(n){return n*n*n}u.r(t),u.d(t,{cube:function(){return r},main:function(){return e},square:function(){return c}})}}]);
+//# sourceMappingURL=693.e46683fd83.js.map

@@ -17,6 +17,7 @@ const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin');
 //设置nodeJs环境变量
 // process.env.NODE_PATH = "development";
 
+
 //渐进式网络开发应用程序(离线可访问)
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 

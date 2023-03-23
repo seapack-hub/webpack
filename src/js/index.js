@@ -3,7 +3,7 @@
  */
 // import '@babel/polyfill';
 // 引入json
-import json from '../media/data.json';
+import json from '@/media/data.json';
 
 import $ from 'jquery';
 
@@ -11,8 +11,8 @@ console.log($);
 
 // 引入样式文件
 // import '../style/index.css';
-import '../style/index.less';
-import '../style/iconfont.css';
+import '@/style/index.less';
+import '@/style/iconfont.css';
 
 const add = function add(x, y) {
   return x + y;

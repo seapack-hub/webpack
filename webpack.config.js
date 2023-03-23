@@ -31,7 +31,10 @@ module.exports = {
         filename: "js/[name].[contenthash:10].js",
         // 输出路径
         // __dirname nodejs的变量，代表当前文件的目录绝对路径
-        path: resolve(__dirname,"build")
+        path: resolve(__dirname,"build"),
+        // 所有资源引入公共路径前缀 --> 'imgs/a.jpg' --> '/imgs/a.jpg'
+        publicPath: '/',
+        chunkFilename: 'js/[name]_chunk.js', // 非入口chunk的名称
     },
     //loader，webpack 只能理解 JavaScript 和 JSON 文件，这是 webpack 开箱可用的自带能力。
     // loader 让 webpack 能够去处理其他类型的文件，并将它们转换为有效 模块，以供应用程序使用，以及被添加到依赖图中。
